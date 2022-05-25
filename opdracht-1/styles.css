@@ -3,3 +3,37 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+/* opdracht 1*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* opdracht 2*/
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 3*/
+#color {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-grow: 3;
+}
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+div ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+}
