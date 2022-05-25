@@ -46,11 +46,9 @@ form {
 }
 
 /*opdracht 5*/
-article {
-    background-color: black;
-}
+
 .five {
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
+    flex-wrap: nowrap;
 }
